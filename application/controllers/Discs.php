@@ -54,7 +54,7 @@ class Discs extends CI_Controller
 
       $this->db->update("disc", $tab, "disc_id=$id");
 
-      redirect(site_url("discs/accueil"));
+      // redirect(site_url("discs/accueil"));
     } else {
       // $data["artist"] = $this->db->query("select * from artist where artist_id=?", array($id))->row();
       $this->load->view("discs/header");
