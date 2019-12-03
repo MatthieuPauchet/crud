@@ -84,6 +84,14 @@ class Discs extends CI_Controller
         }
     }
 
+
+    
+    public function add_artist()
+    {
+
+    }
+
+
     public function add_form()
     {
 
